@@ -4,7 +4,7 @@ public class days22b {
 
 	public static void main(String[] args) {
 	
-		SBI pune = new SBI("India", "Pune");
+		SBII pune = new SBII("India", "Pune");
 		pune.loan();
 		pune.save();
 		pune.displayMessage();
@@ -54,11 +54,11 @@ String branchName;
 	}
 		
 	}	
-	class SBI extends WorldBank1 {
+	class SBII extends WorldBank1 {
 
 		String branchName;
 		
-		public SBI(String cnt,String bn) {
+		public SBII(String cnt,String bn) {
 			super(cnt);
 			this.branchName = bn;
 		}
