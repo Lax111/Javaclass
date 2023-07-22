@@ -2,7 +2,7 @@ package test2;
 
 public class days21b {
 
-	//single inheritance
+	//single inheritance with constructor
 	
 	public static void main(String[] args) {
 

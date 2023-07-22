@@ -3,7 +3,7 @@
 //single inheritance without constructor
 package test2;
 
-public class Day21a {
+public class Day21AInheritanceNoConstructor {
 
 	public static void main(String[] args) {
 

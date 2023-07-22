@@ -1,6 +1,6 @@
 package test2;
 
-public class days21c {
+public class days21MultilevelInherit{
 
 	public static void main(String[] args) {
 		

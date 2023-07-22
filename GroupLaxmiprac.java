@@ -1,14 +1,14 @@
 package test2;
 
-public class RitaRavindraLaxmiprac {
+public class GroupLaxmiprac {
 
 
-		//public class InheritanceRabindra 
+		//public class InheritanceRaj 
 		//{// overriding, inheratince, construction
 
 		 public static void main(String[] args) 
 		 {
-		  employee ep= new employee("Rita Katiwad jee", 43);
+		  employee ep= new employee("Rita Katiwada", 43);
 		  ep.work();
 		  
 		  HR rr= new HR("Laxmi jee", 37, "IT");
@@ -22,7 +22,7 @@ public class RitaRavindraLaxmiprac {
 		 String Name;
 		 int Salary;
 
-		 public  employee(String nm,  int sal)
+		 public employee(String nm,  int sal)
 		 {
 		  this.Name = nm;
 		  this .Salary = sal;

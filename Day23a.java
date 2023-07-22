@@ -30,6 +30,7 @@ class Dog extends Animal {
 	public void displayMessage() {
 		display();
 		super.display();
+		
 	}
 	
 	

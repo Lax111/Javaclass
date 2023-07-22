@@ -5,7 +5,7 @@ public class Day17 {
 	public static void main(String[] args) {
 		// program 1
 
-//		Person rabi = new Person("ranbir","rai",42);
+//		
 		Person[] students = { new Person("ranbir", "amatya",42),
 				new Person("ram", "lama", 33),
 				new Person("ravi", "sharma", 29),

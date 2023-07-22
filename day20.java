@@ -6,13 +6,9 @@ public class day20 {
 		
 		
 	Students a = new Students()	;
-		
 		System.out.println(a.firstName);
 		System.out.println(a.lastName);
 		System.out.println(a.ssn);
-		
-		
-		
 		
 		Teachers aa = new Teachers();
 			System.out.println(aa.firstName);

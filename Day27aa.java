@@ -1,10 +1,9 @@
 package test2;
 
-public class Day27a {
+public class Day27aa {
 
 	public static void main(String[] args) {
-
-		CPU i5 = new CPU();
+		CPU1 i5 = new CPU1();
 		System.out.println(i5.price);
 
 		int priceD = i5.displayPrice();
@@ -12,8 +11,8 @@ public class Day27a {
 
 }
 }
-class CPU {
-	int price = 300;
+class CPU1 {
+	int price = 200;
 
 	class Processor {
 		String manufacturer = "intel";
@@ -26,4 +25,8 @@ class CPU {
 	public int displayPrice() {
 		return this.price;
 	}}
+
+
+	
+
 

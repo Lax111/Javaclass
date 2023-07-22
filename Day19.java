@@ -11,8 +11,6 @@ public class Day19 {
 	System.out.println(sima.lastName);
 	System.out.println(sima.ssn);
 	sima.displayName();
-		
-		
 	
 	TeacherD simaa = new TeacherD("sima", "sharma",678910, 3000);
 	System.out.println(simaa.firstName);
@@ -31,15 +29,11 @@ public class Day19 {
 		int ssn;
 		
 		public StudentD(String fn, String ln , int ss) {
-		
-		
 		this.firstName = fn;
 		this.lastName = ln;
 		this.ssn = ss;
 		
 		}
-		
-		
 			public void displayName() {
 			System.out.println(this.firstName + this.lastName);
 		}
@@ -49,15 +43,10 @@ public class Day19 {
 			
 			int salary;
 			
-			
-		
-			
 			public TeacherD(String fn, String ln, int ss, int sal) {
 			super(fn ,ln , ss);
-			this.salary = sal;
-			
+			this.salary = sal;	
 		}
-		
 		public void displaySalary() {
 			System.out.println(this.salary);
 		}

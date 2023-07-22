@@ -2,7 +2,7 @@ package test2;
 
 import java.util.Arrays;
 
-public class RitaRavindraLaxmiprac2 {
+public class Group1Laxmiprac2 {
 
 	public static void main(String[] args) {
 		
@@ -15,7 +15,7 @@ public class RitaRavindraLaxmiprac2 {
 				  int i = 8;
 				  int j =9;
 				  int[] ints = {5,6,8,9};
-				  String [] objs= {"Rita", "Laxmi", "Pragati","Rabindra"};
+				  String [] objs= {"Rita", "Laxmi", "Pragati","Rabi"};
 				  
 				  Students9 ss= new Students9();
 				  ss.subject(i);
