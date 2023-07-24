@@ -14,19 +14,19 @@ public class Day28 {
 }
 
 class Database {
-	private static Database dbObject = null;
+	private static Database db = null;
 
 	private Database() {
 	}
 
 	public static Database getInstance() {
 
-		if (dbObject == null) {
-			dbObject = new Database();
+		if (db == null) {
+			db = new Database();
 		}
 		// returns you singleton object
 
-		return dbObject;
+		return db;
 	}
 
 	public void getConnection() {

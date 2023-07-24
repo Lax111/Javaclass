@@ -1,5 +1,5 @@
 package test2;
-
+//multiple interface implement 
 interface Three {
 	public void methodThree();
 }
@@ -22,10 +22,8 @@ public class Day26d {
 	objSeven.SixB();
 	objSeven.methodFour();
 	objSeven.methodThree();
-		
-		
-		
-	}
+	objSeven.methodFive();	
+			}  
 
 }
 class Six{
@@ -37,19 +35,22 @@ class Six{
 		System.out.println("This is Second method for class six");
 	}}
 	
-class Seven extends Six implements Three,Four{
+class Seven extends Six implements Three,Four,Five{
 
 	
 	public void methodFour() {
 		System.out.println("This is the method from interface four");
 		
 	}
-
-	
 	public void methodThree() {
 		System.out.println("This is the method from interface four");
 		
-	}}
+	}
+	public void methodFive() {
+		System.out.println("from five");
+		
+	}
+}
 
 
 
