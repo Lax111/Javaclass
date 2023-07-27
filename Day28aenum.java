@@ -2,12 +2,12 @@ package test2;
 
 public class Day28aenum {
 	
-}
+
 	enum roles{
 		
-		ADMIN, SALES, CUSTOMER, SUPPORT, MANAGER
+		ADMIN, SALES, CUSTOMER, SUPPORT,MANAGER
 		
-			
+		}	
 	
 	public static void main(String[] args) {
 		
@@ -17,5 +17,5 @@ public class Day28aenum {
 
 		
 		
-	}		
-}
+			
+	}}
