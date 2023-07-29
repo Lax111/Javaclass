@@ -6,9 +6,10 @@ public class Exceptionhandling {
 
 		// program 1:
 
-		/*
-		 * System.out.println("Hi"); System.out.println(6/0);
-		 */System.out.println("Welcome");
+		
+		 System.out.println("Hi");
+		 System.out.println(6/0);
+		 System.out.println("Welcome");
 
 		// program 2:
 
@@ -29,10 +30,10 @@ public class Exceptionhandling {
 		// program 3:
 
 		System.out.println("Define a array with values");
-		int[] num = { 10, 20, 30, 40 };
+		int[] nums = { 10, 20, 30, 40 };
 		try {
-			System.out.println(num[0]);
-			System.out.println(num[6]);
+			System.out.println(nums[0]);
+			System.out.println(nums[6]);
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
@@ -44,12 +45,13 @@ public class Exceptionhandling {
 		// program 4:
 
 		System.out.println("Define a array with values");
-		int[] nums = { 12, 22, 32, 42 };
+		
 
 		try {
-			System.out.println(nums[0]);
-			System.out.println(nums[7]);
-			System.out.println(6 / 0);
+			int[] nums3 = { 12, 22, 32, 42 };
+			System.out.println(nums3[0]);
+			System.out.println(nums3[5]);
+			System.out.println(4 / 0);
 		}
 
 		catch (ArithmeticException e) {
@@ -74,7 +76,7 @@ public class Exceptionhandling {
 		System.out.println("Hi");
 		
 		try {
-			System.out.println(6/6);
+			System.out.println(6/0);
 		}
 		catch(Exception e){
 			System.out.println("Exception managed sucessfully");
