@@ -41,6 +41,7 @@ String branchName;
 		
 		public PNB(String cnt , String bn) {
 			super(cnt);
+			this.branchName = bn;
 			
 		}
 			

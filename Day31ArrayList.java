@@ -1,3 +1,5 @@
+//Laxmi chapagain
+
 package test2;
 
 import java.util.ArrayList;
@@ -47,16 +49,9 @@ public class Day31ArrayList {
 			System.out.println(z.firstName);
 			System.out.println(z.lastName);
 			z.displaypName();
-		}
-		
-		
-		
-		
-		
+		}		
 	}
-
 }
-
 
 class Person15{
 	String firstName;
