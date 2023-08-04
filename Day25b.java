@@ -1,28 +1,32 @@
 package test2;
 
-public class Day25B{
+public class Day25B {
 
 	public static void main(String[] args) {
-
 		
-	}}
+DogD DD = new DogD();
+DD.makeSound();
+DD.eat();
+		
+	}
+}
 
+abstract class AnimalAAA {
 
-abstract class AnimalA{
-	
 	abstract void makeSound();
-	
+
 	public void eat() {
 		System.out.println("can eat");
 	}
 }
-class DogD extends AnimalA{
+
+class DogD extends AnimalA {
 
 	@Override
 	void makeSound() {
-		syso
+		System.out.println("run run");
 		// TODO Auto-generated method stub
-		
+
 	}
-	
+
 }
