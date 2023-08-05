@@ -19,31 +19,20 @@ case POTATO:
 case BEANS:
 	return "beans";
 	
-case TOMATO:
+case PANEER:
 	return "paneer";
-	
-	
-
+}
+	return "please check & conform";
 
 }
-
-
-
-
-
-
-
-
-
-
+}
 
 public class switchcaseenum {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
-	
-		
+	String type = veg.PANEER.getVeg();
+		System.out.println(type);
 	}
 
 }
