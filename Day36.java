@@ -24,7 +24,7 @@ public class Day36 {
 		
 		for(int j = 0; j < employees.length; j++) {
 		System.out.println(employees[j].salary);
-		}
+		}                                                                                                                                                                               
 		}	
 }
 class Employee{

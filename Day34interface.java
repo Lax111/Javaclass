@@ -1,5 +1,5 @@
 
-
+//interface has only definition no declaration
 package test2;
 
 interface CourseAB{
@@ -20,8 +20,8 @@ class ZorbaS implements CourseAB{
 
 	
 	public void CourseOne() {
-		System.out.println("Zorba one");
 		
+		System.out.println("Zorba one");		
 	}
 
 	
@@ -81,12 +81,12 @@ class RamS implements CourseAB{
 	}
 	
 }
-	public class Day34hashmap {
+	public class Day34interface {
 
 			public static void main(String[] args) {
 				
 	
-
+				//reference 
 		CourseAB firm;
 		
 		firm = new ZorbaS();

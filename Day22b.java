@@ -8,11 +8,9 @@ public class Day22b {
 		Baltimore.loan();
 		Baltimore.save();
 		Baltimore.displayMessage();
-
+		
 	}
-
 }
-
 class USBank {
 	String country;
 
@@ -20,9 +18,8 @@ class USBank {
 
 	public USBank(String cnt) {
 		this.country = cnt;
-
+		
 	}
-
 	public void save() {
 		System.out.println("save method from USBank");
 

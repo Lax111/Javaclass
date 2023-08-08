@@ -1,9 +1,11 @@
+
+
 package test2;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class HashMap123 {
+public class Day35HashMap {
 
 	public static void main(String[] args) {
 		
@@ -37,6 +39,8 @@ public class HashMap123 {
 		for(String prop:employees.values()) {
 			System.out.println(prop);
 		}
+		
+		//PROGRAM 3
 		
 		Map<String,String> computer = new HashMap<String,String>();
 		
