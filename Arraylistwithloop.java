@@ -10,11 +10,11 @@ public class Arraylistwithloop {
 
 	ArrayList<Integer> numbers = new ArrayList <>();
 	
-	numbers.add(10);
-	numbers.add(20);
-	numbers.add(30);
-	numbers.add(40);
-	numbers.add(50);
+	numbers.add(100);
+	numbers.add(200);
+	numbers.add(300);
+	numbers.add(400);
+	numbers.add(500);
 		
 		System.out.println("access elements");
 		
