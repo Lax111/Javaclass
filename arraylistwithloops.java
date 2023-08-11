@@ -30,20 +30,14 @@ public class arraylistwithloops {
 		System.out.println(government.get(x).lastName);
 		government.get(x).display();
 		
-		
+		}
 		int a = 0;
 		while (a< government.size()) {
 			System.out.println(government.get(a).firstName);
 			System.out.println(government.get(a).lastName);
 			government.get(a).display();
 			a++;
-		}
-		
-		for(people )
-		
-		
-		
-		
+		}	
 	}
 
 }
@@ -62,5 +56,4 @@ class people{
 	public void display() {
 		System.out.println("this.firstName+ this.lastName");
 	}
-	
 }
