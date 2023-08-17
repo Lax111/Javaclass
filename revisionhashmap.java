@@ -1,3 +1,5 @@
+//Laxmi
+
 package test2;
 
 import java.util.HashMap;
@@ -54,6 +56,8 @@ public class revisionhashmap {
 		
 		if(hasMapss.containsValue("MD1")) {
 			System.out.println(hasMapss.get("MD1"));
+			System.out.println("******Next case*******");
+			//System.out.println("value available ..."); 
 			
 		}
 			for(String key:hasMapss.keySet()) {

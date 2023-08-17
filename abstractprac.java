@@ -9,9 +9,7 @@ public class abstractprac {
 		Catonsville.save();
 		Catonsville.branchname();
 		Catonsville.displaybranch();
-		
 	}
-
 }
 abstract class usBank999{
 	
@@ -27,10 +25,8 @@ class discover extends usBank999{
 
 	
 	void loan() {
-		System.out.println("Loan");
-		
+		System.out.println("Loan");	
 	}
-
 	
 	void save() {
 	System.out.println("save");
@@ -50,7 +46,6 @@ class discover extends usBank999{
 			
 		}
 
-		
 		void save() {
 			System.out.println("from save");
 			
