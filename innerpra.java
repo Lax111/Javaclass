@@ -3,8 +3,8 @@ package test2;
 public class innerpra 
 {
 
-	public static void main(String[] args) 
-	{
+	public static void main(String[] args) {
+	
 		Organic og = new Organic();
 		og.OrganicTest();
 		
@@ -14,19 +14,19 @@ public class innerpra
 	}
 
 }
-class Organic 
-{
+class Organic {
+
 	
-	public void OrganicTest()
-	{
+	public void OrganicTest(){
+	
 		System.out.println("this is tea/ green tea");
 	}
 	
 	// inner class
-	class milkTea
-	{
-		public void MelkTeaTest()
-		{
+	class milkTea{
+	
+		public void MelkTeaTest(){
+		
 			System.out.println("Please add sugar too.");
 		}
 	}

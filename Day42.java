@@ -6,6 +6,7 @@ public class Day42 {
 		
 
 	System.out.println("hello");	
+	
 		try {
 			
 			System.out.println(10/0);
