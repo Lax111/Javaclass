@@ -6,7 +6,7 @@ public class Day17 {
 		// program 1
 
 //		
-		Person[] students = { new Person("ranbir", "amatya",42),
+		Person[] students = { new Person("ranbir", "acharya",42),
 				new Person("ram", "lama", 33),
 				new Person("ravi", "sharma", 29),
 				new Person("pooja", "dhakal", 28),
@@ -40,7 +40,6 @@ public class Day17 {
 		june.addition(2, 3, 4, 5); //14
 
 	}
-
 }
 
 class Person {
@@ -79,30 +78,3 @@ class Calculator {
 		
 	}
 }
-
-
-
-
-
-
-
-
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-
-

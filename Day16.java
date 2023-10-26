@@ -5,9 +5,6 @@ public class Day16 {
 	public static void main(String[] args) {
 		
 		
-		
-		
-		
 		Human2 chinmay = new Human2("chinmay deshpande",33);
 		Human2 ram = new Human2("ram dani",32);
 		
@@ -20,7 +17,6 @@ public class Day16 {
 		String a = chinmay.talk();
 		System.out.println(a);
 	}
-
 }
 
 class Human2 {

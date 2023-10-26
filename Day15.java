@@ -43,19 +43,6 @@ public class Day15 {
 				System.out.println(ganesh.age);
 				System.out.println(ganesh.name);
 				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			
 			}
 
 		}
@@ -75,20 +62,6 @@ public class Day15 {
 			public void walk() {
 				System.out.println("I am walking");
 			}
-				
-		
-
-
-
-
-
-
-
-
-
-
-		
-
 
 	}
 

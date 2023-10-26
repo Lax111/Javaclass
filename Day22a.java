@@ -8,8 +8,8 @@ public class Day22a {
 		
 		
 	addX(10,5);	
-	addX(20,4);
-	addX(30,6);
+	addX(20,4,2);
+	addX(30,10,6,3);
 	
 	
 	}	
