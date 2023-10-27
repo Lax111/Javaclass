@@ -6,11 +6,11 @@ public class Day17 {
 		// program 1
 
 //		
-		Person[] students = { new Person("ranbir", "acharya",42),
-				new Person("ram", "lama", 33),
-				new Person("ravi", "sharma", 29),
-				new Person("pooja", "dhakal", 28),
-				new Person("ashwini", "dani", 56)
+		PersonCC[] students = { new PersonCC("ranbir", "acharya",42),
+				new PersonCC("ram", "lama", 33),
+				new PersonCC("ravi", "sharma", 29),
+				new PersonCC("pooja", "dhakal", 28),
+				new PersonCC("ashwini", "dani", 56)
 
 		};
 
@@ -28,7 +28,7 @@ public class Day17 {
 
 		// forEach
 
-		for (Person student : students) {
+		for (PersonCC student : students) {
 			student.displayName();
 		}
 
