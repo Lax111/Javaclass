@@ -2,7 +2,9 @@ package test2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 public class PersonCC {
@@ -13,8 +15,8 @@ public class PersonCC {
 		//("sima","shashi","nisha","sanvi","sarita");
 		List<PersonB> people = new ArrayList<>();
 		people.add(new PersonB("sima","khanal",43));
-		people.add(new PersonB("shashi","acharya",24));
-		people.add(new PersonB("nisha","poudel",25));
+		people.add(new PersonB("shashi","acharya",34));
+		people.add(new PersonB("nisha","chapagain",25));
 		people.add(new PersonB("sanvi","acharya",12));
 		people.add(new PersonB("nisha","chapagin",32));
 		
@@ -49,6 +51,31 @@ public class PersonCC {
 		
 		
 		
+		// Sorting the people in ascending by their age 
+		  
+		List<PersonB> sortedByAge = people.stream().sorted (Comparator.comparing(PersonB::getAge)).collect(Collectors.toList());
+		  
+		  // count the number of people with same age
+		
+		 Map<Integer, Long> ageCountMap = people.stream()
+	                .collect(Collectors.groupingBy(PersonB::getAge, Collectors.counting()));
+		 ageCountMap.forEach((age, count) -> System.out.println("Age " + age + ": " + count + " people"));
+		 
+		  // name of first 3 people where age > 30
+		 
+		 List<PersonB> first3Above30 = people.stream()
+	                .filter(PersonB -> PersonB.getAge() > 30)
+	                .limit(3).collect(Collectors.toList());
+		 first3Above30.forEach(PersonB->System.out.println(PersonB.displayName()));
+		 
+		  // distinct name list 
+		  
+		 List<String> distinctNames = people.stream()
+	                .map(PersonB-> PersonB.firstName)
+	                .distinct()
+	                .collect(Collectors.toList());
+		 distinctNames.forEach(name -> System.out.println(name));
+			
 		
 	}}	
 	class PersonB{

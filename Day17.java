@@ -6,11 +6,11 @@ public class Day17 {
 		// program 1
 
 //		
-		PersonCC[] students = { new PersonCC("ranbir", "acharya",42),
-				new PersonCC("ram", "lama", 33),
-				new PersonCC("ravi", "sharma", 29),
-				new PersonCC("pooja", "dhakal", 28),
-				new PersonCC("ashwini", "dani", 56)
+		PersonCCC[] students = { new PersonCCC("rajiv", "acharya",42),
+				new PersonCCC("ram", "lama", 33),
+				new PersonCCC("ravi", "sharma", 29),
+				new PersonCCC("pooja", "dhakal", 28),
+				new PersonCCC("ashwini", "dani", 56)
 
 		};
 
@@ -28,7 +28,7 @@ public class Day17 {
 
 		// forEach
 
-		for (PersonCC student : students) {
+		for (PersonCCC student : students) {
 			student.displayName();
 		}
 
@@ -42,12 +42,12 @@ public class Day17 {
 	}
 }
 
-class Person {
+class PersonCCC {
 	String firstName;
 	String lastName;
 	int age;
 
-	public Person(String fn, String ln, int ag) {
+	public PersonCCC(String fn, String ln, int ag) {
 		this.firstName = fn;
 		this.lastName = ln;
 		this.age = ag;
